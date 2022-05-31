@@ -172,7 +172,6 @@ $(window).on("load",function (){
 
     });
 
-    /*
     // contact form validator
     $('#contact-form').validator();
     $('#contact-form').on('submit', function (e) {
@@ -197,5 +196,4 @@ $(window).on("load",function (){
         }
     });
 
-    */
 });
