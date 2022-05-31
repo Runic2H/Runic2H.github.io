@@ -742,7 +742,7 @@ span, a, a:hover {
   overflow: hidden;
 }
 .portfolio .item-img h5 {
-  font-size: 18px;
+  font-size: 15px;
   position: relative;
   -webkit-transform: translateY(15px);
           transform: translateY(15px);
@@ -773,6 +773,7 @@ span, a, a:hover {
   z-index: 5;
   opacity: 0;
 }
+
 .portfolio .item-img-overlay {
   position: absolute;
   top: 5px;
