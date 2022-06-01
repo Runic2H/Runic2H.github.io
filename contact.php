@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'eltonator1@hotmail.com'; //'Demo contact form <demo@domain.com>'
+$from = 'Demo contact form <demo@domain.com>'; //'Demo contact form <demo@domain.com>'
 $sendTo = 'eltonteo99@gmail.com'; // Add Your Email
 $subject = 'New message from github.io contact form';
 $fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
@@ -9,7 +9,6 @@ $okMessage = 'Contact form successfully submitted. Thank you, I will get back to
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
-
 try
 {
     $emailText = "You have new message from contact form\n=============================\n";
